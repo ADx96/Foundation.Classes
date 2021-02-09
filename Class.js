@@ -30,7 +30,7 @@ class movies {
       }
 
 
-      const movies2 = [new moviesRating("Avengers End game",8.5) , new moviesRating("Wanda vision",7.5) , 
+      const movies2 = [new moviesRating("Avengers End game",10) , new moviesRating("Wanda vision",7.5) , 
       new moviesRating("Black widow ","not rated")]
       
 
@@ -57,6 +57,7 @@ class movies {
         movies.Movie()
         }
       }
+      console.log(` `)
       Details(movies1);
       
 
@@ -65,7 +66,9 @@ class movies {
         moviesRating.Rating()
         }
       }
+      console.log(` `)
       Rating(movies2);
+      
       
      
       function WhatType(Thetype) {
@@ -73,6 +76,7 @@ class movies {
         type.MovieType()
         }
       }
+      console.log(` `)
       WhatType(Thetype);
       
       
